@@ -1,0 +1,122 @@
+.student_profile
+{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.studentName p , .studentID p, .studentEmail p, .studentPhone p, .studentAddress p, .studentBatch p, .studentCNIC p
+{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+/* 
+.dash_home
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #e5e5f7;
+    
+    background: linear-gradient(135deg, #ececec55 25%, transparent 25%) -15px 0/ 30px 30px, linear-gradient(225deg, #ececec 25%, transparent 25%) -15px 0/ 30px 30px, linear-gradient(315deg, #ececec55 25%, transparent 25%) 0px 0/ 30px 30px, linear-gradient(45deg, #ececec 25%, #e5e5f7 25%) 0px 0/ 30px 30px;
+
+}
+
+.container-1
+{
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: 70vh;
+    margin: 0 auto;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+} */
+.container-1 h1{
+    font-size: 2rem;   
+     font-family: "Trebuchet MS";
+     color: #2756BD;
+    margin-top: -12rem;
+
+}
+
+
+
+@media (min-width: 350px) and (max-width: 450px)
+{
+    .dash_home
+{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #ececec; */
+    background-color: #e5e5f7;
+    /* background-opacity: 0.8; */
+    
+    background: linear-gradient(135deg, #ececec55 25%, transparent 25%) -15px 0/ 30px 30px, linear-gradient(225deg, #ececec 25%, transparent 25%) -15px 0/ 30px 30px, linear-gradient(315deg, #ececec55 25%, transparent 25%) 0px 0/ 30px 30px, linear-gradient(45deg, #ececec 25%, #e5e5f7 25%) 0px 0/ 30px 30px;
+
+}
+
+    .container-1
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 90%;
+        margin: 0 auto;
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+        /* border: 1px solid black; */
+        
+    }
+    .admin_profile
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        /* border: 1px solid black; */
+    
+    }
+
+    .student_profile{
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        justify-content: center;
+        /* border: 1px solid black; */
+    }
+
+.studentName
+{
+    margin-top: -1rem;
+}
+    .studentName p , .studentID p, .studentEmail p, .studentPhone p, .studentAddress p, .studentBatch p, .studentCNIC p
+    {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+}

@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #ececec55 25%, transparent 25%) -15px 0/
+      30px 30px,
+    linear-gradient(225deg, #ececec 25%, transparent 25%) -15px 0/ 30px 30px,
+    linear-gradient(315deg, #ececec55 25%, transparent 25%) 0px 0/ 30px 30px,
+    linear-gradient(45deg, #ececec 25%, #e5e5f7 25%) 0px 0/ 30px 30px;
+}
+
+.dash_home {
+  display: flex;
+}
+
+.container-1 {
+  /* border: 4px solid #2756BD; */
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70vh;
+  margin: 0 auto;
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* padding-top: 12rem; */
+}
+
+.container1-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70vh;
+  border: 1px solid #2756bd;
+  border-radius: 10px;
+}
+
+.add_student {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 12rem;
+
+  /* border: 2px solid black; */
+}
+
+.add_student_form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid #000; */
+}
+
+.form-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.form-row-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1.5rem;
+}
+
+.studentid,
+.cnic,
+.batch {
+  width: 30%;
+}
+
+.form-row-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+
+.phone,
+.email,
+.password {
+  width: 43%;
+  margin: 1rem;
+}
+.form-row-4,
+.form-row-5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.address,
+.address1 {
+  width: 90%;
+  margin: 1rem;
+}
+
+.firstname,
+.firstname1,
+.cnic1,
+.phone1,
+.lastname,
+.lastname1,
+.email1,
+.password1,
+.course1 {
+  width: 43%;
+}
+.form-row-4 .image_upload,
+.form-row-4 .image_upload1 {
+  background-color: #3266d6;
+  color: white;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  width: 50%;
+}
+
+.add_student_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.add_student_button button {
+  width: 40%;
+  margin: 1.5rem;
+  color: #2756bd;
+  border-color: #2756bd;
+  font-family: "Trebuchet MS";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+
+  margin-top: -1rem;
+}
+
+@media (min-width: 300px) and (max-width: 450px) {
+
+  .container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: white;
+
+  }
+
+  .container1-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 105vh;
+    border: 1px solid #2756bd;
+    border-radius: 10px;
+  }
+  .add_student {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* margin-top: 12rem; */
+
+    /* border: 2px solid black  ; */
+  }
+  .add_student_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid #000; */
+  }
+
+  .form-row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 100%;
+    margin-left: -2rem;
+    /* border: 1px solid #000; */
+  }
+
+  .form-row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-left: -3.5rem;
+  }
+
+  .form-row-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+    margin-left: -3.5rem;
+  }
+
+  .form-row-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-left: -3.5rem;
+  }
+
+  .form-row-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* margin-left: -1.5rem; */
+  }
+
+  .form-row-4 .image_upload,
+  .form-row-4 .image_upload1 {
+    width: 70%;
+  }
+
+  .firstname,
+  .lastname,
+  .firstname1,
+  .lastname1,
+  .cnic,
+  .cnic1,
+  .phone,
+  .phone1,
+  .email,
+  .email1,
+  .password,
+  .password1,
+  .address,
+  .address1,
+  .studentid,
+  .batch,
+  .course1 {
+    width: 90%;
+  }
+
+  .add_student_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .add_student_button button {
+    width: 80%;
+    margin-top: 2rem;
+    color: #2756bd;
+    border-color: #2756bd;
+    font-family: "Trebuchet MS";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+  }
+
+  .course_selection {
+    width: 90%;
+    margin-left: 1rem;
+  }
+}
