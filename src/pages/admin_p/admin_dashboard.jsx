@@ -95,7 +95,7 @@ export default function DashBoard_Home() {
           <div className='container-1'>
             <div className="admin_profile">
               <div className="admin_profile_img">
-                <img src="/img/admin.jpg" alt="admin" />
+                <img src="../../../public/img/admin.jpg" alt="admin" />
               </div>
               <div className="separator">
                 <Separator orientation="vertical" size="4" />
